@@ -1,1 +1,1 @@
-"# IonicAngularTabsSeed" 
+# IonicAngularTabsSeed
