@@ -1,0 +1,18 @@
+<ion-view view-title="Stack">
+  <ion-content>
+    <label class="item item-input">
+      <input id="stackInput" type="text" placeholder="Enter an item to push into the stack." ng-model="item"/>
+    </label>
+    <br/>
+    <button class="button button-positive" ng-click="push(item)">Push</button>
+    <button class="button button-assertive" ng-click="pop()">Pop</button>
+    <br/> <br/>
+    <ion-list>
+      <ion-item ng-repeat="val in stack">
+        <p>{{val}}</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
+
+
