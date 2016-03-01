@@ -1,8 +1,26 @@
 # IonicAngularTabsSeed
 
-(Note that you need npm and ionic installed)
+Before you get started, make sure you install:
 
-Clone the project: 
+[node.js](https://nodejs.org/en/download/)
+
+Once node.js is installed, you can use npm in the terminal/command prompt to install:
+
+* `npm install -g cordova ionic`
+
+* `npm install -g karma-cli`
+
+* `npm install -g gulp`
+
+* `npm install -g bower`
+
+* `npm install -g protractor`
+
+Once protractor is installed, you should install the Selenium WebDriver:
+
+* `webdriver-manager update`
+
+Now you can get get the project by cloning it: 
 
 `git clone https://github.com/superdids/IonicAngularTabsSeed.git`
 
@@ -24,11 +42,7 @@ Navigate to the tests folder with  `cd tests` and run the following command:
 
 `protractor e2e.conf.js`
 
-If errors occur, try to install the following items globally: 
 
-`npm install -g karma-cli`
 
-`npm install -g gulp`
 
-`npm install -g protractor`
 
